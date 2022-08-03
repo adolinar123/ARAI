@@ -17,10 +17,6 @@ body {
     background-color:rgb(102, 196, 199); 
     padding-top: 10px;
     padding-bottom: 40px;
-    
-   
-   
-   
 }
 .sc_header  img {
     overflow: hidden;
@@ -44,8 +40,7 @@ body {
     margin-bottom: 0.5%;
     border-top: 3px solid rgba(76, 157, 160, 0.671); 
     padding: 10px;
-    background-color:cadetblue;
-    
+    background-color:cadetblue; 
 }
 
 #buttonList {
@@ -56,7 +51,6 @@ body {
     background-color:cadetblue;
     width: 40%;
     float: left;
-
 }
 li {
     float: left;
@@ -69,7 +63,6 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
     border-radius: 10px;
-
 }
 li a:hover,.dropdown:hover {
  background-color:rgb(102, 196, 199);
@@ -92,7 +85,6 @@ li.dropdown {
     color: cadetblue;
     display: block;
     text-align: left;
-
 }
 .dropdown:hover .dropdowncontent  {
     display: block;
@@ -131,6 +123,5 @@ form {
     text-shadow: 1.5px 1.5px 1.5px #000;
     border-radius: 30px;
     background-color:cadetblue;
-
 }
 
