@@ -23,6 +23,7 @@ body {
     float:left;
     margin-right: 10px;
     margin-bottom: 10px;
+    margin-top: 10px;
 }
 .sc_header article p {
     color:darkslategray;
@@ -39,7 +40,7 @@ body {
     width: 100%;
     margin-bottom: 0.5%;
     border-top: 3px solid rgba(76, 157, 160, 0.671); 
-    padding: 10px;
+    padding: 5px;
     background-color:cadetblue; 
 }
 
@@ -65,9 +66,9 @@ li a {
     border-radius: 10px;
 }
 li a:hover,.dropdown:hover {
- background-color:rgb(102, 196, 199);
- color: antiquewhite;
- border-radius: 10px;
+    background-color:rgb(102, 196, 199);
+    color: antiquewhite;
+    border-radius: 10px;
 }
 li.dropdown {
     display: inline-block;
@@ -82,18 +83,26 @@ li.dropdown {
 }
 
 .dropdowncontent a {
-    color: cadetblue;
+    color: rgb(43, 105, 107);
     display: block;
     text-align: left;
+ 
+}
+.dropdowncontent a:hover {
+    color: antiquewhite;
+    display: block;
+    text-align: left;
+    background-color: rgb(62, 158, 161);
+ 
 }
 .dropdown:hover .dropdowncontent  {
     display: block;
 }
-form {
-    margin-left: 70%;
+#search_line {
+    margin-left: 20px;
 }
 
-#busqueda {
+#busqueda input {
     margin: 0;
     border: 0;
     line-height: 2.5;
@@ -101,16 +110,16 @@ form {
     font-size: 1rem;
     text-align: center;
     color: #fff;
-    text-shadow: 1.5px 1.5px 1.5px #000;
-    border-radius: 20px;
+    border-radius: 20px 0px 0px 20px;
     background-color:rgba(169, 197, 197, 0.671);
+    width: 35%;
 }
 #search_icon {
     width: 20px;
     margin-left: 15px;
     margin-top: 10px;
 }
-#nom_busqueda {
+#textSpam {
     margin-left: 1.5%;
     margin-bottom: 14px;
     padding-bottom: 10px;
@@ -123,5 +132,18 @@ form {
     text-shadow: 1.5px 1.5px 1.5px #000;
     border-radius: 30px;
     background-color:cadetblue;
+}
+
+#Search {
+    margin: 0;
+    border: 0;
+    line-height: 2.5;
+    padding: 5px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    border-radius: 0px 20px 20px 0px;
+    background-color:rgba(113, 192, 192, 0.671);
+    width: 10%;
 }
 
