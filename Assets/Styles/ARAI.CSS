@@ -141,9 +141,22 @@ li.dropdown {
     padding: 5px;
     font-size: 1rem;
     text-align: center;
-    color: #fff;
+    color: white;
     border-radius: 0px 20px 20px 0px;
     background-color:rgba(113, 192, 192, 0.671);
+    width: 10%;
+}
+
+#Search:focus {
+    margin: 0;
+    border: 0;
+    line-height: 2.5;
+    padding: 5px;
+    font-size: 1rem;
+    text-align: center;
+    color: antiquewhite;
+    border-radius: 0px 20px 20px 0px;
+    background-color:rgba(52, 116, 116, 0.671);
     width: 10%;
 }
 
